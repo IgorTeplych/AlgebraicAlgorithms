@@ -11,9 +11,9 @@ namespace AlgebraicAlgorithms
         /// <summary>
         /// Через степень двойки с домножением
         /// </summary>
-        public static double DecompositionPow(double number, int exponent)
+        public static double DecompositionPow(double number, long exponent)
         {
-            int d = 1;
+            long d = 1;
             double outVal = 1;
 
             while (exponent > 1)
@@ -27,7 +27,7 @@ namespace AlgebraicAlgorithms
             }
             return outVal;
         }
-        static double Pow(double number, int exp)
+        static double Pow(double number, long exp)
         {
             while (exp >= 2)
             {
