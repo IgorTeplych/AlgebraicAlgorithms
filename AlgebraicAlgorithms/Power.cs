@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AlgebraicAlgorithms
 {
-    static public class ExpMultiplication
+    static public class Power
     {
         /// <summary>
         /// Через степень двойки с домножением
