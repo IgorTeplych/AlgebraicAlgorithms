@@ -27,7 +27,6 @@ namespace AlgebraicAlgorithms
             }
             return outVal;
         }
-
         static double Pow(double number, int exp)
         {
             while (exp >= 2)
