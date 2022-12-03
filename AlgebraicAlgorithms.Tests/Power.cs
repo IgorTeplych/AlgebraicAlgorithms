@@ -55,14 +55,14 @@ namespace AlgebraicAlgorithms.Tests
         [Test]
         public void Test8()
         {
-            //Assert.AreEqual(Math.Round(AlgebraicAlgorithms.Power.DecompositionPow(1.000000001, 1000000000), 7,
-               // MidpointRounding.ToNegativeInfinity), 2.7182820);
+            Assert.AreEqual(Math.Round(AlgebraicAlgorithms.Power.DecompositionBinaryAlgorithmPower(1.000000001, 1000000000), 7,
+                MidpointRounding.ToNegativeInfinity), 2.7182820);
         }
         [Test]
         public void Test9()
         {
-            //Assert.AreEqual(Math.Round(AlgebraicAlgorithms.Power.DecompositionPow(1.0000000001, 10000000000), 7,
-               // MidpointRounding.ToNegativeInfinity), 2.7182820);
+            Assert.AreEqual(Math.Round(AlgebraicAlgorithms.Power.DecompositionBinaryAlgorithmPower(1.0000000001, 10000000000), 7,
+                MidpointRounding.ToNegativeInfinity), 2.7182820);
         }
     }
 }

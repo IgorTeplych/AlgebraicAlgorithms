@@ -22,7 +22,7 @@ namespace AlgebraicAlgorithms
                 d *= 2;
                 if (exponent % 2 != 0)
                 {
-                    outVal *= Pow(number, d);
+                    outVal = outVal * Pow(number, d);
                 }
             }
             return outVal;
@@ -33,7 +33,7 @@ namespace AlgebraicAlgorithms
         /// </summary>
         public static double MultiplicationAlgorithmPower(double number, long exponent)
         {
-            //находим ближайшее число степени двойки к показателю степени. Переменная result - ближайшая степень двойки.
+            //находим ближайшее число степени двойки к показателю степени. Переменная ExponentMultipleTwo - ближайшая степень двойки.
             long binaryShift = 2;
             long ExponentMultipleTwo = 0;
             while (binaryShift < exponent)
