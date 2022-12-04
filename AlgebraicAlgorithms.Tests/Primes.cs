@@ -79,7 +79,7 @@ namespace AlgebraicAlgorithms.Tests
         {
             Assert.AreEqual(AlgebraicAlgorithms.Primes.GetCountPrime(100000000), 5761455);
         }
-        //[Test]
+        [Test]
         public void Test13()
         {
             Assert.AreEqual(AlgebraicAlgorithms.Primes.GetCountPrime(1000000000), 50847534);

@@ -6,6 +6,6 @@ static class Program
 {
     static void Main()
     {
-        Primes.GetCountPrime(10);
+        Eratosthen.GetCountPrime(10);
     }
 }
